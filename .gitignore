@@ -1,0 +1,18 @@
+# Ignore MongoDB data and binaries
+data/
+mongosh/
+mongodb-win32-x86_64-windows-8.0.11/
+*.exe
+*.pdb
+*.zip
+*.log
+
+# Ignore environment config
+.env
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore editor/IDE junk
+.DS_Store
+*.swp
